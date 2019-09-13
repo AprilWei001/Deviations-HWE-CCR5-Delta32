@@ -6,12 +6,12 @@ filterGnomadVCFData.m, where its input files gnomad.genomes.r2.1.1.exome_calling
 
 mergeAndAnalyzeGnomadWES_WGS.m will take the output files from filterGnomadVCFData.m as input files
 
-outputBi_gnomad_individualPop.m take the output file from mergeAndAnalyzeGnomadWES_WGS.m as input, and its output files Bi_gnomad_individualPopControlSNPs.txt, and Bi_gnomad_individualPopDelta32.txt are also provided. 
+outputBi_gnomad_individualPop.m takes the output file from mergeAndAnalyzeGnomadWES_WGS.m as input, and its output files Bi_gnomad_individualPopControlSNPs.txt, and Bi_gnomad_individualPopDelta32.txt are also provided. 
 
 
 
 For Cox analysis:
-It uses individual level UK Biobank data thus we cannot provide the input and output.
+It uses individual level UK Biobank data thus we cannot provide some of the input and output files, but the results and scripts are provided.
 
 writeFileForCoxModelRemoveKinMaxPower.m This script will remove kinship while maximazing the number of minor allele homozygotes. 
 
