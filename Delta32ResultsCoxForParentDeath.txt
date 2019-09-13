@@ -1,0 +1,169 @@
+[1] "dataForCoxParentDeathNoKin.txt"
+Call:
+coxph(formula = Surv(dataDelta32$ageEnd, dataDelta32$deathEven) ~ 
+    dataDelta32$Delta32Additive + dataDelta32$parent + dataDelta32$pc1 + 
+        dataDelta32$pc2 + dataDelta32$pc3 + dataDelta32$pc4 + 
+        dataDelta32$pc5 + dataDelta32$pc6 + dataDelta32$pc7 + 
+        dataDelta32$pc8 + dataDelta32$pc9 + dataDelta32$pc10 + 
+        dataDelta32$pc11 + dataDelta32$pc12 + dataDelta32$pc13 + 
+        dataDelta32$pc14 + dataDelta32$pc15 + dataDelta32$pc16 + 
+        dataDelta32$pc17 + dataDelta32$pc18 + dataDelta32$pc19 + 
+        dataDelta32$pc20 + dataDelta32$pc21 + dataDelta32$pc22 + 
+        dataDelta32$pc23 + dataDelta32$pc24 + dataDelta32$pc25 + 
+        dataDelta32$pc26 + dataDelta32$pc27 + dataDelta32$pc28 + 
+        dataDelta32$pc29 + dataDelta32$pc30 + dataDelta32$pc31 + 
+        dataDelta32$pc32 + dataDelta32$pc33 + dataDelta32$pc34 + 
+        dataDelta32$pc35 + dataDelta32$pc36 + dataDelta32$pc37 + 
+        dataDelta32$pc38 + dataDelta32$pc9 + dataDelta32$pc40 + 
+        dataDelta32$Center)
+
+  n= 442778, number of events= 442778 
+
+                                  coef  exp(coef)   se(coef)       z Pr(>|z|)    
+dataDelta32$Delta32Additive  5.021e-03  1.005e+00  3.311e-03   1.516 0.129408    
+dataDelta32$parent           3.445e-01  1.411e+00  3.053e-03 112.850  < 2e-16 ***
+dataDelta32$pc1              1.628e-03  1.002e+00  9.895e-04   1.645 0.099988 .  
+dataDelta32$pc2              1.516e-04  1.000e+00  1.022e-03   0.148 0.882104    
+dataDelta32$pc3             -1.809e-03  9.982e-01  9.919e-04  -1.824 0.068155 .  
+dataDelta32$pc4              3.209e-03  1.003e+00  7.594e-04   4.225 2.39e-05 ***
+dataDelta32$pc5              8.470e-03  1.009e+00  3.416e-04  24.795  < 2e-16 ***
+dataDelta32$pc6              6.162e-04  1.001e+00  9.483e-04   0.650 0.515818    
+dataDelta32$pc7             -4.554e-04  9.995e-01  8.534e-04  -0.534 0.593651    
+dataDelta32$pc8              2.052e-03  1.002e+00  8.613e-04   2.382 0.017219 *  
+dataDelta32$pc9              3.095e-03  1.003e+00  3.800e-04   8.145 3.80e-16 ***
+dataDelta32$pc10             6.696e-04  1.001e+00  8.216e-04   0.815 0.415069    
+dataDelta32$pc11             4.296e-03  1.004e+00  6.303e-04   6.815 9.41e-12 ***
+dataDelta32$pc12            -4.151e-03  9.959e-01  8.207e-04  -5.058 4.24e-07 ***
+dataDelta32$pc13            -6.371e-05  9.999e-01  9.347e-04  -0.068 0.945661    
+dataDelta32$pc14            -4.429e-03  9.956e-01  5.103e-04  -8.679  < 2e-16 ***
+dataDelta32$pc15             1.168e-03  1.001e+00  8.652e-04   1.350 0.177124    
+dataDelta32$pc16            -2.121e-03  9.979e-01  5.238e-04  -4.050 5.13e-05 ***
+dataDelta32$pc17            -1.130e-03  9.989e-01  7.613e-04  -1.484 0.137807    
+dataDelta32$pc18             2.120e-03  1.002e+00  5.355e-04   3.959 7.54e-05 ***
+dataDelta32$pc19            -1.093e-03  9.989e-01  5.215e-04  -2.095 0.036186 *  
+dataDelta32$pc20             5.150e-03  1.005e+00  5.322e-04   9.677  < 2e-16 ***
+dataDelta32$pc21             1.814e-03  1.002e+00  5.484e-04   3.309 0.000937 ***
+dataDelta32$pc22            -8.511e-04  9.991e-01  5.252e-04  -1.620 0.105131    
+dataDelta32$pc23            -2.674e-03  9.973e-01  5.301e-04  -5.046 4.52e-07 ***
+dataDelta32$pc24            -1.089e-04  9.999e-01  5.901e-04  -0.185 0.853571    
+dataDelta32$pc25             2.227e-03  1.002e+00  5.581e-04   3.990 6.60e-05 ***
+dataDelta32$pc26             9.303e-04  1.001e+00  5.535e-04   1.681 0.092804 .  
+dataDelta32$pc27            -6.656e-04  9.993e-01  5.462e-04  -1.219 0.222970    
+dataDelta32$pc28             1.195e-03  1.001e+00  5.474e-04   2.183 0.029053 *  
+dataDelta32$pc29             3.207e-04  1.000e+00  5.462e-04   0.587 0.557126    
+dataDelta32$pc30            -8.745e-04  9.991e-01  5.303e-04  -1.649 0.099100 .  
+dataDelta32$pc31             3.334e-04  1.000e+00  5.427e-04   0.614 0.538969    
+dataDelta32$pc32            -1.833e-03  9.982e-01  5.544e-04  -3.307 0.000944 ***
+dataDelta32$pc33             1.770e-03  1.002e+00  5.363e-04   3.300 0.000968 ***
+dataDelta32$pc34             4.829e-04  1.000e+00  5.357e-04   0.901 0.367377    
+dataDelta32$pc35            -6.659e-04  9.993e-01  5.442e-04  -1.224 0.221102    
+dataDelta32$pc36             8.668e-04  1.001e+00  5.390e-04   1.608 0.107790    
+dataDelta32$pc37            -7.718e-04  9.992e-01  5.373e-04  -1.437 0.150846    
+dataDelta32$pc38             6.641e-04  1.001e+00  5.378e-04   1.235 0.216862    
+dataDelta32$pc40             1.300e-03  1.001e+00  5.360e-04   2.426 0.015271 *  
+dataDelta32$Center11001      1.935e-01  1.213e+00  4.630e-02   4.179 2.92e-05 ***
+dataDelta32$Center11002      1.471e-01  1.158e+00  4.635e-02   3.173 0.001509 ** 
+dataDelta32$Center11003      2.831e-01  1.327e+00  4.625e-02   6.121 9.29e-10 ***
+dataDelta32$Center11004      2.784e-01  1.321e+00  4.623e-02   6.022 1.72e-09 ***
+dataDelta32$Center11005      2.022e-01  1.224e+00  4.624e-02   4.374 1.22e-05 ***
+dataDelta32$Center11006      2.722e-01  1.313e+00  4.605e-02   5.912 3.39e-09 ***
+dataDelta32$Center11007      1.706e-01  1.186e+00  4.588e-02   3.718 0.000201 ***
+dataDelta32$Center11008      2.460e-01  1.279e+00  4.582e-02   5.369 7.94e-08 ***
+dataDelta32$Center11009      3.140e-01  1.369e+00  4.584e-02   6.851 7.35e-12 ***
+dataDelta32$Center11010      2.399e-01  1.271e+00  4.573e-02   5.246 1.55e-07 ***
+dataDelta32$Center11011      1.865e-01  1.205e+00  4.578e-02   4.073 4.64e-05 ***
+dataDelta32$Center11012      1.385e-01  1.149e+00  4.696e-02   2.948 0.003194 ** 
+dataDelta32$Center11013      2.189e-01  1.245e+00  4.579e-02   4.781 1.74e-06 ***
+dataDelta32$Center11014      2.177e-01  1.243e+00  4.582e-02   4.751 2.02e-06 ***
+dataDelta32$Center11016      2.095e-01  1.233e+00  4.579e-02   4.576 4.74e-06 ***
+dataDelta32$Center11017      2.801e-01  1.323e+00  4.602e-02   6.086 1.15e-09 ***
+dataDelta32$Center11018      1.135e-01  1.120e+00  4.604e-02   2.466 0.013657 *  
+dataDelta32$Center11020      1.211e-01  1.129e+00  4.602e-02   2.631 0.008510 ** 
+dataDelta32$Center11021      1.937e-01  1.214e+00  4.596e-02   4.214 2.51e-05 ***
+dataDelta32$Center11022      2.226e-01  1.249e+00  5.042e-02   4.416 1.01e-05 ***
+dataDelta32$Center11023      1.664e-01  1.181e+00  6.018e-02   2.765 0.005693 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+                            exp(coef) exp(-coef) lower .95 upper .95
+dataDelta32$Delta32Additive    1.0050     0.9950    0.9985    1.0116
+dataDelta32$parent             1.4113     0.7086    1.4028    1.4197
+dataDelta32$pc1                1.0016     0.9984    0.9997    1.0036
+dataDelta32$pc2                1.0002     0.9998    0.9981    1.0022
+dataDelta32$pc3                0.9982     1.0018    0.9963    1.0001
+dataDelta32$pc4                1.0032     0.9968    1.0017    1.0047
+dataDelta32$pc5                1.0085     0.9916    1.0078    1.0092
+dataDelta32$pc6                1.0006     0.9994    0.9988    1.0025
+dataDelta32$pc7                0.9995     1.0005    0.9979    1.0012
+dataDelta32$pc8                1.0021     0.9980    1.0004    1.0037
+dataDelta32$pc9                1.0031     0.9969    1.0024    1.0038
+dataDelta32$pc10               1.0007     0.9993    0.9991    1.0023
+dataDelta32$pc11               1.0043     0.9957    1.0031    1.0055
+dataDelta32$pc12               0.9959     1.0042    0.9943    0.9975
+dataDelta32$pc13               0.9999     1.0001    0.9981    1.0018
+dataDelta32$pc14               0.9956     1.0044    0.9946    0.9966
+dataDelta32$pc15               1.0012     0.9988    0.9995    1.0029
+dataDelta32$pc16               0.9979     1.0021    0.9969    0.9989
+dataDelta32$pc17               0.9989     1.0011    0.9974    1.0004
+dataDelta32$pc18               1.0021     0.9979    1.0011    1.0032
+dataDelta32$pc19               0.9989     1.0011    0.9979    0.9999
+dataDelta32$pc20               1.0052     0.9949    1.0041    1.0062
+dataDelta32$pc21               1.0018     0.9982    1.0007    1.0029
+dataDelta32$pc22               0.9991     1.0009    0.9981    1.0002
+dataDelta32$pc23               0.9973     1.0027    0.9963    0.9984
+dataDelta32$pc24               0.9999     1.0001    0.9987    1.0010
+dataDelta32$pc25               1.0022     0.9978    1.0011    1.0033
+dataDelta32$pc26               1.0009     0.9991    0.9998    1.0020
+dataDelta32$pc27               0.9993     1.0007    0.9983    1.0004
+dataDelta32$pc28               1.0012     0.9988    1.0001    1.0023
+dataDelta32$pc29               1.0003     0.9997    0.9993    1.0014
+dataDelta32$pc30               0.9991     1.0009    0.9981    1.0002
+dataDelta32$pc31               1.0003     0.9997    0.9993    1.0014
+dataDelta32$pc32               0.9982     1.0018    0.9971    0.9993
+dataDelta32$pc33               1.0018     0.9982    1.0007    1.0028
+dataDelta32$pc34               1.0005     0.9995    0.9994    1.0015
+dataDelta32$pc35               0.9993     1.0007    0.9983    1.0004
+dataDelta32$pc36               1.0009     0.9991    0.9998    1.0019
+dataDelta32$pc37               0.9992     1.0008    0.9982    1.0003
+dataDelta32$pc38               1.0007     0.9993    0.9996    1.0017
+dataDelta32$pc40               1.0013     0.9987    1.0002    1.0024
+dataDelta32$Center11001        1.2135     0.8241    1.1082    1.3287
+dataDelta32$Center11002        1.1584     0.8632    1.0578    1.2686
+dataDelta32$Center11003        1.3273     0.7534    1.2122    1.4532
+dataDelta32$Center11004        1.3210     0.7570    1.2066    1.4463
+dataDelta32$Center11005        1.2241     0.8169    1.1181    1.3402
+dataDelta32$Center11006        1.3129     0.7617    1.1996    1.4369
+dataDelta32$Center11007        1.1860     0.8432    1.0840    1.2976
+dataDelta32$Center11008        1.2789     0.7819    1.1690    1.3990
+dataDelta32$Center11009        1.3689     0.7305    1.2513    1.4976
+dataDelta32$Center11010        1.2711     0.7867    1.1622    1.3903
+dataDelta32$Center11011        1.2050     0.8299    1.1016    1.3181
+dataDelta32$Center11012        1.1485     0.8707    1.0475    1.2592
+dataDelta32$Center11013        1.2447     0.8034    1.1379    1.3616
+dataDelta32$Center11014        1.2432     0.8044    1.1364    1.3600
+dataDelta32$Center11016        1.2331     0.8110    1.1273    1.3489
+dataDelta32$Center11017        1.3233     0.7557    1.2091    1.4482
+dataDelta32$Center11018        1.1202     0.8927    1.0236    1.2260
+dataDelta32$Center11020        1.1287     0.8860    1.0314    1.2353
+dataDelta32$Center11021        1.2137     0.8239    1.1092    1.3282
+dataDelta32$Center11022        1.2494     0.8004    1.1318    1.3792
+dataDelta32$Center11023        1.1811     0.8467    1.0496    1.3289
+
+Concordance= 0.564  (se = 0.001 )
+Rsquare= 0.037   (max possible= 1 )
+Likelihood ratio test= 16527  on 62 df,   p=<2e-16
+Wald test            = 16494  on 62 df,   p=<2e-16
+Score (logrank) test = 16614  on 62 df,   p=<2e-16
+
+Call:
+coxph(formula = Surv(dataDelta32$ageEnd, dataDelta32$deathEven) ~ 
+    dataDelta32$Delta32Additive + dataDelta32$parent)
+
+  n= 442778, number of events= 442778 
+
+                                coef exp(coef) se(coef)       z Pr(>|z|)    
+dataDelta32$Delta32Additive 0.005972  1.005990 0.003309   1.805   0.0711 .  
+dataDelta32$parent          0.340185  1.405207 0.003051 111.516   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
